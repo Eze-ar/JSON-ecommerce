@@ -1,0 +1,387 @@
+@media screen and (min-width:0px) {
+
+    body {
+        font-family: "Raleway";
+        overflow-y: scroll;
+    }
+
+    .menu {
+        height: 9vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logo {
+        order: 1;
+    }
+
+    .logo_imagen {
+        width: 30vw;
+    }
+
+    .buscador {
+        order: 4;
+    }
+
+    .input_buscador {
+        display: none;
+        outline: none;
+        border: none;
+    }
+
+    .buscar {
+        height: 17px;
+        width: 17px;
+        border: none;
+    }
+
+    .buscar_clara {
+        background: url(../img/Lupa_oscura.svg);
+        background-color: #FFFFFF;
+        border: none;
+    }
+
+    .buscar_oscuro {
+        background: url(../img/Lupa_clara.svg);
+        background-color: #242424;
+        border: none;
+    }
+
+    .div_button {
+        order: 2;
+    }
+
+    .empty_button {
+        border: 1px solid #2A7AE4;
+        width: 32vw;
+        height: 5vh;
+        color: #2A7AE4;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .menu_desplegable {
+        position: absolute;
+        background-color: #2A7AE4;
+        width: 32vw;
+        display: none;
+    }
+
+    .menu_desplegable ul li button {
+        background-color: #2A7AE4;
+        font-size: 0.7rem;
+        color: #ffffff;
+        width: 100%;
+        height: 100%;
+        padding: 5%;
+        border: none;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+    }
+
+    .menu_desplegable ul li button:hover {
+        background-color: #1c91ff;
+        color: #000000;
+    }
+
+    .seccion_principal {
+        background-color: #E5E5E5;
+        height: auto;
+        padding-bottom: 5%;
+    }
+
+    .footer {
+        background-color: #EAF2FD;
+    }
+
+    .footer .lista {
+        text-align: center;
+    }
+
+    .footer_logo {
+        width: 50vw;
+        margin: 5% 0 2% 0;
+    }
+
+    .footer li {
+        padding: 2%;
+        color: #555555;
+    }
+
+    .contacto {
+        text-align: left;
+        padding-top: 1%;
+    }
+
+    .contacto_titulo {
+        text-align: left;
+        color: #555555;
+        font-weight: 700;
+        padding-top: 8%;
+        padding-left: 3.5%;
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    .input {
+        border: none;
+        outline: none;
+        color: #A2A2A2;
+        padding-left: 2%;
+    }
+
+
+    .input::placeholder {
+        vertical-align: top;
+        color: #666666;
+        font-family: "Raleway";
+    }
+
+    .input_nombre, .input_mensaje {
+        display: inline;
+        width: 90vw;
+        margin-top: 3%;
+        font-size: 0.9rem;
+        margin-left: 3.5vw;
+    }
+
+    .input_nombre {
+        height: 5vh;
+    }
+
+    .input_mensaje {
+        height: 8vh;
+        padding-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .button {
+        border: none;
+        background-color: #2A7AE4;
+        width: 32vw;
+        height: 5vh;
+        color: #FFFFFF;
+    }
+
+    form .button {
+        margin-left: 3.5vw;
+        margin-bottom: 5%;
+    }
+
+    .copyright {
+        padding: 7% 0;
+        text-align: center;
+        color: #555555;
+        font-size: 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 480px) {
+
+    .menu {
+        justify-content: left;
+    }
+
+    .logo {
+        margin: 2%;
+    }
+
+    .logo_imagen {
+        width: 15vw;
+    }
+
+    .buscador {
+        order: 2;
+        margin: 3%;
+        width: 250px;
+        height: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .input_buscador {
+        display: flex;
+        background-color: #F5F5F5;
+        border-radius: 20px 0 0 20px;
+        width: 200px;
+        height: 40px;
+        padding: 0 0 0 10px;
+        color: #A2A2A2
+    }
+
+    .input_buscador::placeholder {
+        color: #A2A2A2;
+    }
+
+    .buscar {
+        background-repeat: no-repeat;
+        background-position: center center;
+        border: none;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 0 20px 20px 0;
+    }
+
+    .buscar_clara {
+        background-image: url(../img/Lupa_clara.svg);
+        background-color: #F5F5F5;
+    }
+
+    .buscar_oscuro {
+        background-image: url(../img/Lupa_clara.svg);
+        background-color: #636363;
+    }
+
+    .div_button {
+        order: 3;
+        margin-left: auto;
+        margin-right: 2%;
+    }
+
+    .empty_button {
+        width: 20vw;
+    }
+
+    .menu_desplegable {
+        width: 20vw;
+    }
+
+    .menu_desplegable ul li button {
+        font-size: 0.8rem;
+        padding: 7%;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer .lista {
+        width: 38vw;
+        text-align: left;
+        font-size: 0.8rem;
+        padding-left: 2vw;
+        padding-bottom: 2%;
+    }
+
+    .footer_logo {
+        width: 25vw;
+        padding-top: 5%;
+    }
+
+    .footer li {
+        padding: 4%;
+    }
+
+    .contacto {
+        width: 60vw;
+    }
+
+    .contacto_titulo {
+        padding-left: 8%;
+    }
+
+    .button {
+        width: 18vw;
+        font-size: 0.7rem;
+    }
+
+    .input_nombre, .input_mensaje {
+        width: 85%;
+    }
+
+    .copyright {
+        padding: 3% 0;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu {
+        height: 12vh;
+    }
+
+    .logo {
+        margin: 6%;
+        margin-right: 4%;
+    }
+
+    .logo_imagen {
+        width: 12vw;
+    }
+
+    .buscador {
+        width: 280px;
+        height: 30px;
+        margin-left: 0;
+    }
+
+    .input_buscador {
+        width: 240px;
+        height: 30px;
+    }
+
+    .buscar {
+        width: 30px;
+        height: 30px;
+    }
+
+    .div_button {
+        margin-right: 6%;
+    }
+
+    .empty_button {
+        width: 15vw;
+        height: 6vh;
+    }
+
+    .menu_desplegable {
+        width: 15vw;
+    }
+
+    .menu_desplegable ul li button {
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer .lista {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 30vw;
+        padding-left: 10vw;
+    }
+
+    .footer_logo {
+        width: 10vw;
+        align-self: flex-start;
+        padding-top: 10%;
+    }
+
+    .footer li {
+        padding: 6% 0 6% 0;
+    }
+
+    .button {
+        width: 12vw;
+    }
+
+    .contacto {
+        width: 45vw;
+        padding-right: 10vw;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+    }
+}
